@@ -4,7 +4,13 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=AQUA Kernel v1.1 for r9q/r9q2 by Victor_cris
+kernel.string=
+kernel.for=
+kernel.compiler=
+kernel.made=
+kernel.version=
+message.word=
+build.date=
 do.devicecheck=1
 do.modules=1
 do.systemless=0
