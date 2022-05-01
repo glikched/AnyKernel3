@@ -10,7 +10,6 @@ kernel.compiler=
 kernel.made=
 kernel.version=
 message.word=
-build.date=
 do.devicecheck=1
 do.modules=1
 do.systemless=0
