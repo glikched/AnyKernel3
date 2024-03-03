@@ -4,10 +4,10 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=
-kernel.compiler=
-kernel.made=
-message.word=
+kernel.string=AQUA v2.0
+kernel.compiler=WeebX-Clang
+kernel.made=Victor_cris (@glikched)
+message.word=Thank you for using AQUA Kernel
 do.devicecheck=1
 do.modules=1
 do.systemless=0
