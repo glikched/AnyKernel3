@@ -481,7 +481,7 @@ flash_generic() {
       abort "$1 partition could not be found. Aborting...";
     fi;
     if [ ! "$no_block_display" ]; then
-      ui_print " " "$imgblock";
+      ui_print " " "- Flashing $imgblock";
     fi;
     if [ "$path" == "/dev/block/mapper" ]; then
       avb=$($bin/httools_static avb $1);
@@ -923,7 +923,7 @@ setup_ak() {
     abort "Unable to determine $block partition. Aborting...";
   fi;
   if [ ! "$no_block_display" ]; then
-    ui_print "$block";
+    ui_print " " "- Flashing $block";
   fi;
   
   # allow multi-partition ramdisk modifying configurations (using reset_ak)
